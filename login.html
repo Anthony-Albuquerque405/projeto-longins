@@ -4,18 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        height: 100vh;
-        width: 100vw;
-        background: black url("imagens/tela..png") no-repeat top center;
-        background-size: cover;
-      }
-    </style>
+    <link rel="stylesheet" href="estilo/paglogin.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Login Page</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="#"></a>
+      </nav>
+    </header>
+    <main>
+      <h1>Login Page</h1>
+      <form action="#" method="post">
+        <p>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+        </p>
+        <p><button type="submit">Login</button></p>
+      </form>
+    </main>
+  </body>
 </html>
