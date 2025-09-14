@@ -18,26 +18,61 @@
     <main>
       <h1>Login Page</h1>
       <form action="#" method="post">
-        <p>
-          <label for="username">Username:</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            required
-          /><br /><br />
-        </p>
-        <p>
-          <label for="password">Password:</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            required
-          /><br /><br />
-        </p>
-        <p><button type="submit">Login</button></p>
+        <fieldset>
+          <legend>Informações de Login</legend>
+          <p class="paragrafo-usuario">
+            <label for="username">Usuario: </label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Digite seu usuario"
+              required
+            /><br /><br />
+          </p>
+          <p>
+            <label for="password">Senha:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Digite sua senha"
+              required
+              
+            /><br /><br />
+            <p id="esqueci-senha"><a href="#" target="_blank">Esqueceu a senha?</a></p>
+          </p>
+        <p id="login-button"><button type="submit" >Login</button></p>
+        <p id="criar-conta"><a href="#" target="_blank">Criar uma conta</a></p>
+      </fieldset>
       </form>
+      <section id="patrocinadores">
+        <h2>Patrocinadores</h2>
+          <a href="#" target="_blank"
+          ><img
+            src="imagens/logo-github.jpg"
+            alt="Ícone do GitHub"
+            max-width="40"
+            max-height="40" 
+          /></a>
+          <a href="#" target="_blank"
+          ><img
+            src="imagens/logo-html1.png"
+            alt="Ícone do HTML5"
+            max-width="40"
+            max-height="40"
+          /></a>
+          <a href="#" target="_blank"
+          ><img
+            src="imagens/logo-css.png"
+            alt="Ícone do CSS3"
+            max-width="50"
+            max-height="50"
+        /></a>
+      </section>
     </main>
+      <footer>
+        <p>Projeto de estudo e prática de HTML5 e CSS3</p>
+      </footer>
   </body>
 </html>
