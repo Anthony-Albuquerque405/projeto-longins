@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="shortcut icon" href="imagens/logo-github.jpg" type="image/x-icon">
     <link rel="stylesheet" href="estilo/paglogin.css" />
   </head>
   <body>
@@ -17,7 +18,7 @@
     </header>
     <main>
       <h1>Login Page</h1>
-      <form action="#" method="post">
+      <form action="#" method="post" autocomplete="on">
         <fieldset>
           <legend>Informações de Login</legend>
           <p class="paragrafo-usuario">
@@ -27,6 +28,10 @@
               id="username"
               name="username"
               placeholder="Digite seu usuario"
+              minlength="5"
+              maxlength="30"
+              size="13"
+              autocomplete="username"
               required
             /><br /><br />
           </p>
@@ -37,6 +42,10 @@
               id="password"
               name="password"
               placeholder="Digite sua senha"
+              minlength="8"
+              maxlength="16"
+              size="13"
+              autocomplete="off"
               required
               
             /><br /><br />
