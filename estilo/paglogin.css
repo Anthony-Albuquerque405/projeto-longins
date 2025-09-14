@@ -16,11 +16,12 @@ body {
 header {
   width: 100vw;
   height: 100px;
-  background-color: darkgrey;
+  background-color: rgb(50, 47, 47);
 }
 
 header h1 {
   text-align: center;
+  color: white;
   padding: 10px;
 }
 
@@ -28,12 +29,12 @@ header > nav {
   color: black;
   text-align: center;
   padding-top: 15px;
+  font-size: 20px;
 }
 
 nav > a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  padding-right: 5px;
 }
 
 nav > a:hover {
@@ -126,11 +127,12 @@ section#patrocinadores {
   text-align: center;
   max-width: 650px;
   margin-top: 15px;
-  background-color: darkgrey;
+  background-color: rgba(0, 0, 0, 0.737);
   height: 100px;
   padding: 10px;
 }
 section#patrocinadores h2 {
+  color: white;
   text-align: center;
   padding-bottom: 10px;
   font-size: 20px;
@@ -142,7 +144,8 @@ section#patrocinadores img {
 }
 
 footer {
-  background-color: darkgrey;
+  background-color: rgba(0, 0, 0, 0.622);
+  color: white;
   text-align: center;
   margin-top: 40px;
 }
